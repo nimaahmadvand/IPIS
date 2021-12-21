@@ -1,0 +1,385 @@
+﻿@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/eot/iranyekanwebbold.eot');
+    src: url('../fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff/iranyekanwebbold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/woff2/iranyekanwebbold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/ttf/iranyekanwebbold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/eot/iranyekanwebthin.eot');
+    src: url('../fonts/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff/iranyekanwebthin.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/woff2/iranyekanwebthin.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/ttf/iranyekanwebthin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/eot/iranyekanweblight.eot');
+    src: url('../fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff/iranyekanweblight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/woff2/iranyekanweblight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/ttf/iranyekanweblight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/iranyekanwebregular.eot');
+    src: url('../fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff/iranyekanwebregular.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/woff2/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/eot/iranyekanwebmedium.eot');
+    src: url('../fonts/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff/iranyekanwebmedium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/woff2/iranyekanwebmedium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/ttf/iranyekanwebmedium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/eot/iranyekanwebextrabold.eot');
+    src: url('../fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff/iranyekanwebextrabold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/woff2/iranyekanwebextrabold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/eot/iranyekanwebblack.eot');
+    src: url('../fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff/iranyekanwebblack.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/woff2/iranyekanwebblack.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/ttf/iranyekanwebblack.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/eot/iranyekanwebextrablack.eot');
+    src: url('../fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/woff/iranyekanwebextrablack.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/woff2/iranyekanwebextrablack.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
+}
+
+body {
+    font-family: iranyekan !important;
+}
+
+div, ol, pre, span, ul {
+    font-family: iranyekan !important;
+}
+
+option {
+    font-family: Tahoma;
+}
+
+h1, h2, h3, h4, h5, h6, input, textarea {
+    font-family: iranyekan !important;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-regular {
+    font-weight: normal;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-extrabold {
+    font-weight: 800;
+}
+
+.text-black {
+    font-weight: 800;
+}
+
+.text-extrablack {
+    font-weight: 900;
+}
+
+.tableFix {
+    white-space: nowrap;
+    width: 1px;
+}
+
+
+
+@media screen and (max-width:640px) {
+    .sw > .nav {
+        flex-direction: unset !important;
+        flex: unset !important;
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    .sw-theme-arrows > .nav .nav-link {
+        overflow: unset !important;
+        margin-bottom: unset !important;
+        margin-left: 30px !important;
+    }
+}
+
+.sw-theme-arrows > .nav .nav-link.done {
+    border-color: #50cd89 !important;
+    background: #50cd89 !important;
+}
+
+    .sw-theme-arrows > .nav .nav-link.done::after {
+        border-right-color: #50cd89 !important;
+    }
+
+.sw-theme-arrows > .nav .nav-link.active {
+    color: #fff;
+    border-color: #009ef7 !important;
+    background: #009ef7 !important;
+}
+
+    .sw-theme-arrows > .nav .nav-link.active::after {
+        border-right-color: #009ef7 !important;
+    }
+.sw-theme-arrows > .nav .nav-link.inactive {
+    border-color: #e4e6ef ;
+    background: #e4e6ef ;
+}
+
+.sw-theme-arrows > .nav .nav-link::before {
+    border-right: 30px solid #f5f8fa;
+}
+.sw-theme-arrows > .nav .nav-link::after {
+    border-right: 30px solid #e4e6ef;
+}
+.TransitionUnset {
+    transition: unset !important;
+}
+    .TransitionUnset:hover {
+        transition: unset !important;
+    }
+
+.sw-theme-arrows {
+    border:  unset !important;
+}
+    .sw-theme-arrows > .nav {
+        border-bottom: unset !important;
+    }
+
+    .sw-theme-arrows > .tab-content > .tab-pane {
+        padding: unset;
+        padding-right: 0;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+.vpd-icon-btn {
+    padding: 0 15px !important;
+}
+
+.vpd-input-group .vpd-clear-btn {
+    top: 5px !important;
+    width: 80px !important;
+}
+
+.vpd-input-group input {
+    line-height: 1.5 !important;
+    padding: .75rem 1rem !important;
+
+}
+
+
+.select2-container--bootstrap5 .select2-selection--single .select2-selection__rendered {
+    color: #181c32; 
+}
+
+.apexcharts-tooltip-marker {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.table td:first-child, .table th:first-child, .table tr:first-child {
+    padding-right: 0.75em;
+}
+
+.hrBeautiful {
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: #e4e6ef;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* کنترل لیست آبشاری  */
+
+.select2-container--bootstrap5 .select2-dropdown .select2-results__option.select2-results__option--selected {
+    background-position: center left 1.25rem !important;
+}
+
+.light-mode .select2-container--bootstrap5 .select2-selection--single .select2-selection__rendered {
+    color: #181c32;
+}
+
+.dark-mode .select2-container--bootstrap5 .select2-selection--single .select2-selection__rendered {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+
+
+/* کنترل گرید  */
+
+.light-mode .mvc-grid-table > table > thead > tr > th {
+    background-color: #f5f8fa;
+    color: #5e6278 !important;
+}
+
+.light-mode .mvc-grid-table > table > tbody > tr:last-child > td,
+.light-mode .mvc-grid-table > table > tbody > tr:last-child > th,
+.light-mode .mvc-grid-table > table > tfoot > tr:last-child > td,
+.light-mode .mvc-grid-table > table > tfoot > tr:last-child > th {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.mvc-grid-table .table td:last-child,
+.mvc-grid-table .table th:last-child,
+.mvc-grid-table .table tr:last-child {
+    padding-left: 0.75em;
+}
+
+
+
+.dark-mode .mvc-grid-table > table > thead > tr > th {
+    background-color: #24252f !important;
+}
+
+.dark-mode .mvc-grid-table > table > tbody > tr:last-child > td,
+.dark-mode .mvc-grid-table > table > tbody > tr:last-child > th,
+.dark-mode .mvc-grid-table > table > tfoot > tr:last-child > td,
+.dark-mode .mvc-grid-table > table > tfoot > tr:last-child > th {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075) !important;
+}
+
+.dark-mode .mvc-grid-table > table > thead > tr > th,
+.dark-mode .mvc-grid-table > table > tbody > tr > td,
+.dark-mode .mvc-grid-table > table > tfoot > tr > td {
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    border-bottom-color: rgba(255, 255, 255, 0.075);
+}
+
+
+.dark-mode .mvc-grid-table > table tbody tr:last-child td,
+.dark-mode .mvc-grid-table > table tbody tr:last-child th,
+.dark-mode .mvc-grid-table > table tfoot tr:last-child td,
+.dark-mode .mvc-grid-table > table tfoot tr:last-child th {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+    border-bottom-color: rgba(255, 255, 255, 0.075);
+}
+
+
+.dark-mode .mvc-grid-pager [disabled],
+.dark-mode .mvc-grid-pager [disabled]:hover {
+    background-color: rgba(255,255,255,.05);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.dark-mode .mvc-grid-pager button {
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    background: #24252f;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.dark-mode .mvc-grid-pager .active, .mvc-grid-pager .active:focus, .mvc-grid-pager .active:hover {
+    background-color: #4638c2;
+    border-color: rgba(255, 255, 255, 0.075);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.dark-mode .mvc-grid-pager button:focus,
+.dark-mode .mvc-grid-pager button:hover {
+    background-color: #4638c2;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.dark-mode .mvc-grid-page-sizes select {
+    background-color: #24252f;
+    border-color: rgba(255, 255, 255, 0.075);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+
+.dark-mode .mvc-grid-popup {
+    background-color: #24252f;
+    border: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+    .dark-mode .mvc-grid-popup .mvc-grid-value,
+    .dark-mode .mvc-grid-popup .mvc-grid-method,
+    .dark-mode .mvc-grid-popup .mvc-grid-operator {
+        border: 1px solid rgba(255, 255, 255, 0.075);
+        background-color: #24252f;
+        color: rgba(255, 255, 255, 0.87);
+    }
+
+    .dark-mode .mvc-grid-popup .popup-arrow {
+        border-bottom: 8px solid #24252f;
+    }
+
+        .dark-mode .mvc-grid-popup .popup-arrow::after {
+            border-bottom: 9px solid rgba(255, 255, 255, 0.075);
+        }
+
+
+
+/* کنترل   */
+.dark-mode .form-control {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.dark-mode .text-dark {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.dark-mode {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
